@@ -7,3 +7,4 @@ public class ConsoleMessage extends Message {
         return "This is class ConsoleMessage";
     }
 }
+
