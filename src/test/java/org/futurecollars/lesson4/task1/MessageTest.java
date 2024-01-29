@@ -10,7 +10,7 @@ class MessageTest {
     void shouldReturnConsoleMessage() {
         //Given
         String expextedText = "This is class ConsoleMessage";
-        ConsoleMessage consoleMessage = new ConsoleMessage();
+        Message consoleMessage = new ConsoleMessage();
         //When
         String actualText = consoleMessage.getMessage();
         //Then
@@ -21,7 +21,7 @@ class MessageTest {
     void shouldReturnWindowsMessage() {
         //Given
         String expextedText = "This is class WindowMessage";
-        WindowMessage windowMessage = new WindowMessage();
+        Message windowMessage = new WindowMessage();
         //When
         String actualText = windowMessage.getMessage();
         //Then
