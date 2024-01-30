@@ -13,7 +13,7 @@ class AnimalTest {
         Animal animal = new Animal("Simba") {
         };
         // when
-        String result  = animal.name;
+        String result = animal.name;
         // then
         assertEquals(expectedName, result);
     }
