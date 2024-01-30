@@ -17,6 +17,6 @@ public class Rectangle implements MatchOperationOnTheFigures {
 
     @Override
     public int getPerimeter() {
-    return (2 * (sideA + sideB));
+        return (2 * (sideA + sideB));
     }
 }

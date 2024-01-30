@@ -1,6 +1,6 @@
 package org.futurecollars.lesson4.task3;
 
-public class Circle implements MatchOperationOnTheFigures{
+public class Circle implements MatchOperationOnTheFigures {
 
     private int radius;
 
