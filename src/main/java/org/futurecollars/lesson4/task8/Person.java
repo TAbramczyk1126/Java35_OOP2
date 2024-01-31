@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class Person {
 
-    String name;
-    String surname;
-    int age;
-    String ID;
+    private String name;
+    private String surname;
+    private int age;
+    private String ID;
 
     public Person(String name, String surname, int age, String ID) {
         this.name = name;
