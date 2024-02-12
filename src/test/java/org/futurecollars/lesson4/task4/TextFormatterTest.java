@@ -10,10 +10,10 @@ class TextFormatterTest {
     void shouldReturnTextInCapitalLetter() {
         // Given
         String expectedText = "THIS IS A TEXT IN CAPITAL LETTER";
-        TextFormatter capitalLetter = new CapitalLetter();
+        UpperCaseFormatter capitalLetter = new UpperCaseFormatter();
         String text = "This is a text in capital letter";
         // When
-        String formattedText = capitalLetter.formatText(text);
+        String formattedText = text.toUpperCase();
         // Then
         assertEquals(expectedText, formattedText);
     }
@@ -22,10 +22,10 @@ class TextFormatterTest {
     void shouldReturnTextInSmallLetter() {
         // Given
         String expectedText = "this is a text in small letter";
-        TextFormatter smallLetter = new SmallLetter();
+        LowerCaseFormatter smallLetter = new LowerCaseFormatter();
         String text = "This is a text in small letter";
         // When
-        String formattedText = smallLetter.formatText(text);
+        String formattedText = text.toLowerCase();
         // Then
         assertEquals(expectedText, formattedText);
     }
